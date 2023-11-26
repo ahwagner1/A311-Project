@@ -1,9 +1,9 @@
 ##Tobias Bromirski##
 - Source.cpp
-- Stack.h/.cpp
-- Shadowstack.h/.cpp
+- stack.h/.cpp
+- shadow_stack.h/.cpp
 - Slides
 
 ##Ashton Wagner##
 - Source.cpp
-- ShadowStack.h/.cpp
+- shadow_stack_LL.h/.cpp
