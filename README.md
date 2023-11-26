@@ -2,7 +2,7 @@
 Tobias Bromirski and Ashton Wagner
 
 This project aims to utilize and test shadow stacks using linked lists instead of the more common method of using an array. 
-Source.cpp holds main() and must include stack.h, shadow_stack.h, shadow_stack_LL.h, <functional>, and <chrono> to properly work.
+Source.cpp holds main() and must include stack.h, shadow_stack.h, shadow_stack_LL.h, functional, and chrono to properly work.
 To use this code, download the files to your computer and then import them to your IDE of choice that supports compiling c++ code. 
 
 
