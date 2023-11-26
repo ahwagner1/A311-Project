@@ -8,8 +8,8 @@ Tobias Bromirski and Ashton Wagner
 - **Operating System:** Windows 11
 - **Compiler:** cl.exe
 
- Regular Stack Demo: 717 microseconds
+ Regular Stack Average Demo: 813 microseconds
  
- Shadow Stack Demo: 747 microseconds
+ Shadow Stack Average Demo: 622 microseconds
  
- Shadow Stack Demo using linked lists: 397 microseconds
+ Shadow Stack Average Demo using linked lists: 395 microseconds
