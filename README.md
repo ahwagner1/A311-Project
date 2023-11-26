@@ -8,6 +8,8 @@ Tobias Bromirski and Ashton Wagner
 - **Operating System:** Windows 11
 - **Compiler:** GCC 9.3.0.
 
-Regular Stack Demo: 717 microseconds
-Shadow Satck Demo: 747 microseconds
-Shadow Stack Demo using linked lists: 397 microseconds
+ Regular Stack Demo: 717 microseconds
+ 
+ Shadow Stack Demo: 747 microseconds
+ 
+ Shadow Stack Demo using linked lists: 397 microseconds
