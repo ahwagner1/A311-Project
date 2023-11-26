@@ -6,7 +6,7 @@ Tobias Bromirski and Ashton Wagner
 - **Memory (RAM):** 32 GB DDR4
 - **Storage:** 1024 GB NVMe SSD.
 - **Operating System:** Windows 11
-- **Compiler:** GCC 9.3.0.
+- **Compiler:** cl.exe
 
  Regular Stack Demo: 717 microseconds
  
