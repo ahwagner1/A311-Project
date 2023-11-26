@@ -3,7 +3,7 @@ Tobias Bromirski and Ashton Wagner
 
 ### Hardware and Environment Specifications for Execution Time Measurements
 - **Processor (CPU):** Intel Core i7-10700KF, 3.80 GHz
-- **Memory (RAM):** 23 GB DDR4
+- **Memory (RAM):** 32 GB DDR4
 - **Storage:** 1024 GB NVMe SSD.
 - **Operating System:** Windows 11
 - **Compiler:** GCC 9.3.0.
