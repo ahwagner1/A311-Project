@@ -13,14 +13,13 @@ To use this code, download the files to your computer and then import them to yo
 - **Operating System:** Windows 11
 - **Compiler:** cl.exe
 
-#### Regular Stack Runtimes (in microseconds):
-- [552, 1117, 779, 675, 941]
-- Average runtime: 813
-  
-#### Shadow Stack Runtimes (in microseconds):
-- [593, 628, 645, 665, 557]
-- Average runtime: 618
+## Runtimes of stack implemented using stack.h/.cpp (in microseconds):
+- [733, 729, 519, 698, 813]
+- Average runtime: 698
+## Runtimes of stack implemented using shadow_stack.h/.cpp (in microseconds):
+- [301, 406, 349, 454, 594]
+- Average runtime: 421
+## Runtimes of stack implemented using shadow_stack_LL.h/.cpp (in microseconds):
+- [306, 469, 376, 414, 604]
+- Average Runtime: 434
 
-#### Shadow Stack (Linked List) Runtimes (in microseconds):
-- [631, 309, 340, 352, 343]
-- Average Runtime: 395
