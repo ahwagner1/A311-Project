@@ -19,7 +19,7 @@ To use this code, download the files to your computer and then import them to yo
   
 #### Shadow Stack Runtimes (in microseconds):
 - [593, 628, 645, 665, 557]
-- Average runtime: 622
+- Average runtime: 618
 
 #### Shadow Stack (Linked List) Runtimes (in microseconds):
 - [631, 309, 340, 352, 343]
