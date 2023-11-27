@@ -1,25 +1,23 @@
 #include "shadow_stack.h"
 using namespace std;
 
-ShadowStack::ShadowStack() : top(-1), data(nullptr), heapLocations(nullptr)
+ShadowStack::ShadowStack() : top(-1)
 {
     srand(static_cast<unsigned>(time(0)));
-    
-    // initializing 1000 possible spots on heap for potential storage of stack data
-    heapLocations = new int[1000];
-    for (int i = 0; i < 1000; ++i) {
-        heapLocations[i] = reinterpret_cast<int>(malloc(maxSize * sizeof(int)));
-    }
 
-    // choose spot on heap for the stack
+    // allocate space on heap for data
+    data = new int[maxSize];
+
+    // create an array of int*  on the heap
+    heapLocations = new int*[heapMaxSize];
+    
+    // choosing random spot in heapLocations to store data
     RandomizeStackAddress();
-    data = reinterpret_cast<int*>(malloc(maxSize * sizeof(int))); // creates an array of size maxSize in the location chosen by RandomizeStackAddress()
 }
 
-ShadowStack::~ShadowStack() 
-{
+ShadowStack::~ShadowStack() {
+    delete[] data;
     delete[] heapLocations;
-    free(data);
 }
 
 void ShadowStack::Push(int value)
@@ -59,7 +57,6 @@ void ShadowStack::Print() const
 
 void ShadowStack::RandomizeStackAddress() 
 {
-    int index = rand() % 1000;
-    data = reinterpret_cast<int*>(heapLocations[index]);
+    int index = rand() % heapMaxSize;
+    heapLocations[index] = data;
 }
-
