@@ -15,9 +15,10 @@ public:
 
 private:
     static const int maxSize = 100;
+    static const int heapMaxSize = 1000;
     int* data;
     int top;
-    int* heapLocations;
+    int** heapLocations;
 
     void RandomizeStackAddress();
 };
