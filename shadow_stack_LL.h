@@ -18,7 +18,6 @@ public:
     void Print() const;
 
 private:
-    static const int maxSize = 100;
     Node* heapLocations;
     Node* head;
     Node* tail;
